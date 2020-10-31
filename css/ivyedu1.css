@@ -1,0 +1,1452 @@
+BODY
+{
+    FONT-SIZE: 11px;
+   
+    font-family:Trebuchet MS;
+    
+  }
+
+
+
+A {
+	FONT-SIZE: 11px; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+A:link {
+	FONT-WEIGHT: bold; COLOR: #001d1d; FONT-FAMILY: Verdana
+}
+A:visited {
+	FONT-WEIGHT: bold; COLOR: #d62609; FONT-FAMILY: Verdana
+}
+A:hover {
+	COLOR:#0066FF
+}
+
+bodytext
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial
+}
+
+textfield
+{
+    FONT: 11px tahoma;
+    TEXT-TRANSFORM: none;
+    COLOR: #003300;
+    TEXT-DECORATION: none
+}
+
+
+.dg
+{
+	background-image:url('../images/gr.jpg') ;
+	background-repeat:repeat-x;
+	padding-left:6px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#284F22;
+	text-decoration:none;
+	text-align:left;
+}
+
+
+.dg tbody tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+	
+}
+
+
+.dghead
+{
+	background-image:url(../images/hdr.jpg) ;
+	background-repeat:repeat-x ;
+	height:26px ;
+	padding-left:6px ;
+	font-family:Arial, Helvetica, sans-serif ;
+	font-size:12px ;
+	color:#000000 ;
+	text-decoration:none ;
+	text-align:left;
+}
+.dgitem
+{
+	background-image:url(../images/gy.jpg) ;
+	background-repeat:repeat-x ;
+	height:26px ;
+	padding-left:6px ;
+	font-family:Arial, Helvetica, sans-serif ;
+	font-size:12px ;
+	color:#4B4B4B ;
+	text-decoration:none ;
+	text-align:left;
+}
+.dgfooter
+{
+	background-color:#aec6db ;
+	padding:3px 5px 3px 5px ;
+	font-family:Arial, Helvetica, sans-serif ;
+	font-size:12px ;
+	font-weight:bold ;
+	color:#35557f ;	
+	text-align:left;
+}
+
+ .dgHeaderFreez
+{
+position:relative ;
+top:expression(this.offsetParent.scrollTop);
+z-index: 10;
+}  
+
+
+
+
+
+
+
+.ok
+{
+      FONT-SIZE: 10pt;
+    COLOR:#f2e9da;
+    FONT-FAMILY: Tahoma;
+    background-color:Gray;
+    font-weight:bold;
+    cursor: pointer;
+	display: -moz-inline-box;
+	display: inline-block;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	line-height: 19px;
+	background-repeat: no-repeat;
+
+	
+}
+
+.txtfield
+{
+      FONT-SIZE: 10pt;
+    COLOR:#f2e9da;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+	
+}
+.csdatagrid
+{
+      FONT-SIZE: 10pt;
+    COLOR:#8C4510;
+    FONT-FAMILY: Tahoma;
+   }
+.txtfield1
+{
+      FONT-SIZE: 10pt;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+    text-align:left;
+ 
+	
+}
+
+
+
+
+table-title
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8px;
+    COLOR: #0a1f01;
+    FONT-FAMILY: tahoma;
+    TEXT-DECORATION: none
+}
+.tittle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR:"#dcb584" ;
+    FONT-FAMILY: tahoma;
+    text-align:center;
+    background-color:"#70560A";
+   
+    height:32px;
+   
+}
+
+
+.subtd1 
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR:Black;
+    FONT-FAMILY: Tahoma;
+   
+	text-align:left;
+	
+}
+
+
+
+
+.recordsMsg
+{
+	
+    FONT-SIZE: 11px;
+    COLOR:red ;
+    FONT-FAMILY: Arial;
+    HEIGHT: 8px;
+	
+}
+
+
+.subtdr
+{
+	FONT-WEIGHT:normal ;
+    FONT-SIZE: 10pt;
+    COLOR:Black ;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+	background-color: #FDFCFC;
+	text-align:left;
+	
+}
+
+
+.subtdh 
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR:white ;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+	background-color:green;
+	text-align:left;
+	
+}
+
+.tdpop
+{
+	FONT-WEIGHT:normal ;
+    FONT-SIZE: 10pt;
+    COLOR:black ;
+    FONT-FAMILY: Trebuchet MS;
+    HEIGHT: 8px;
+	background-color: #FDFCFC;
+	text-align:left;
+	
+	
+}
+
+
+
+.subtdR 
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR:white ;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+	background-color:green;
+	text-align:right ;
+	
+}
+
+.subtdh1 
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR:white ;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+	background-color:#9AADC2;
+	text-align:left;
+	
+}
+
+.subtdf 
+{
+    background-color:Silver ;
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR:Black ;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+	background-color: #e0f5f2;
+	text-align:left;
+	width:250pt;
+}
+
+.subtd12 
+{
+	FONT-WEIGHT:normal ;
+    FONT-SIZE: 8pt;
+    COLOR: #003466;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+	background-color: #e6d7ba;
+	text-align:left;
+}
+
+.subtd11
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #003466;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+    text-align:left;
+	
+	}
+
+.H1B
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #FCF4DC;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+	background-color:#ade985 ;
+	background-image: url(../IMAGES/bg_titlebar.jpg);
+	text-align :center ;
+	}
+.subcell 
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #003466;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+	background-color: #e6d7ba;
+	text-align:left;
+}
+.bg {
+	background-image: url(IMAGES/headingbk.jpg);
+}
+
+
+.keycell
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #003466;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+    BACKGROUND-COLOR: #f2e9da;
+    text-align:left;
+}
+.keycell1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #003466;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+    BACKGROUND-COLOR: #f2e9da;
+ }
+.formtable
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    WIDTH: 100%;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Tahoma;
+    BACKGROUND-COLOR:#f2e9da;
+  
+   
+}
+.formtable_popup
+{
+    PADDING-RIGHT: 1px;
+    PADDING-LEFT: 1px;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 1px;
+    MARGIN: 0px;
+    WIDTH: 100%;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Tahoma;
+  
+   
+}
+.keyrow
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #003466;
+    FONT-FAMILY: Arial;
+    HEIGHT: 8px;
+    BACKGROUND-COLOR: #ebd7d7
+}
+
+.operationcell
+{
+    BACKGROUND-COLOR: #ebd7d7;
+    TEXT-ALIGN: left
+}
+.bottomrow
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: blue;
+    FONT-STYLE: normal;
+    FONT-FAMILY: tahoma, Arial;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: left
+}
+.ivysmall
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8px;
+    COLOR: #6A1A5F;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: right;
+}
+
+
+
+INPUT.searchbox
+{
+    BORDER-RIGHT: green thick outset;
+    BORDER-TOP: green thick outset;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: green thick outset;
+    BORDER-BOTTOM: green thick outset;
+    FONT-FAMILY: tahoma, Arial;
+    BACKGROUND-COLOR: lavender;
+}
+
+INPUT
+{
+    BORDER-RIGHT: #bababa 1px solid;
+    BORDER-TOP: #bababa 1px solid;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #bababa 1px solid;
+    BORDER-BOTTOM: #bababa 1px solid;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: white
+}
+
+
+
+
+
+
+
+TD.blackcell
+{
+    BACKGROUND-COLOR: black
+}
+.normalcell
+{
+   FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: black;
+    FONT-FAMILY: tahoma, Arial;
+    HEIGHT: 10px;
+    BACKGROUND-COLOR: #ebd7d7
+}
+TD.Highlightcell
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: red;
+    FONT-FAMILY: tahoma, Arial;
+    HEIGHT: 10px;
+    BACKGROUND-COLOR: #ccffcc;
+}
+TD.linkcell
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    FONT-FAMILY: tahoma, Arial;
+    BACKGROUND-COLOR: #9acd3c;
+}
+TR.Invoice-Table-Title
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    FONT-FAMILY: tahoma, Arial;
+    BACKGROUND-COLOR: darkcyan;
+}
+TD.Invoice-Keycell
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    FONT-FAMILY: tahoma, Arial;
+    BACKGROUND-COLOR: cadetblue;
+}
+TD.Invoice-Normalcell
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    FONT-FAMILY: tahoma, Arial;
+    BACKGROUND-COLOR: lightgreen;
+}
+TD.report_title
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: tahoma, Arial;
+    BACKGROUND-COLOR: darkcyan;
+    TEXT-ALIGN: left;
+    FONT-VARIANT: normal
+}
+TD.report_Header
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 14px;
+    COLOR: black;
+    FONT-FAMILY: tahoma, Arial;
+    BACKGROUND-COLOR: darkcyan;
+    TEXT-ALIGN: left;
+    FONT-VARIANT: normal;
+}
+TD.table_title
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: black;
+    FONT-FAMILY: tahoma, Arial;
+    BACKGROUND-COLOR: mediumturquoise;
+}
+TD.table_body
+{
+    FONT-SIZE: 10px;
+    COLOR: black;
+    FONT-FAMILY: tahoma, Arial;
+    BACKGROUND-COLOR: mintcream;
+}
+
+
+HR
+{
+    BORDER-LEFT-COLOR: #336636;
+    BORDER-BOTTOM-COLOR: #336636;
+    BORDER-TOP-STYLE: ridge;
+    BORDER-TOP-COLOR: #336636;
+    BORDER-RIGHT-STYLE: ridge;
+    BORDER-LEFT-STYLE: ridge;
+    BORDER-RIGHT-COLOR: #336636;
+    BORDER-BOTTOM-STYLE: ridge
+}
+BODY
+{
+    FONT-SIZE: 8px;
+    FONT-FAMILY: tahoma
+}
+TR.norm
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: smaller
+}
+SELECT
+{
+    BORDER-RIGHT: #bababa 1px solid;
+    BORDER-TOP: #bababa 1px solid;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #bababa 1px solid;
+    BORDER-BOTTOM: #bababa 1px solid;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: white;
+}
+TEXTAREA
+{
+    BORDER-RIGHT: #bababa 1px solid;
+    BORDER-TOP: #bababa 1px solid;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #bababa 1px solid;
+    BORDER-BOTTOM: #bababa 1px solid;
+    FONT-FAMILY: tahoma;
+    BACKGROUND-COLOR: white;
+}
+TD.viewBody
+{
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 0px;
+    COLOR: black;
+    FONT-FAMILY: tahoma, Arial;
+}
+
+/******************************input and buttons******************************/
+.optn {
+	background-image:url(../images/optn.gif) ;
+	background-repeat:no-repeat ;
+	width:130px;	
+	height:27px ;
+	border:0px ;
+	
+}
+
+
+.ok {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+background-image:url('../images/ok.jpg');
+	background-repeat:no-repeat;
+}
+	
+	
+.ok:hover	{
+     background-image:url('../images/okhover.jpg') ;
+}
+
+
+
+.select{
+	background-color:#f8ffc8 ;
+	height:14px ;
+	border:1px solid #5a6223 ;
+	font-family:Arial, Helvetica, sans-serif ;
+	font-size:11px ;
+	color:#000000 ;
+}
+
+.textfield1{
+	background-color:#FFFFFF ;
+	height:14px ;
+	border:1px solid #5a6223 ;
+	font-family:Arial, Helvetica, sans-serif ;
+	font-size:11px ;
+	color:#000000 ;
+}
+
+.Search_btn {
+	background-image:url(../images/srch.gif);	
+	background-repeat:no-repeat ;
+	width:112px ;
+	height:27px ;
+	border:0px ;
+}
+
+.close {
+	background-image:url(../IMAGES/close.gif) ;
+	background-repeat:no-repeat ;
+	width:112px ;
+	height:27px ;
+	border:0px ;
+}
+
+
+    
+.H2B
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: Red ;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 8px;
+	background-color:#ade985 ;
+	background-image: url(IMAGES/bg_titlebar.jpg);
+	text-align :left  ;
+	 
+	 }
+BR.Page
+{
+	page-break-after:always
+}
+
+
+
+
+.cal_Theme1 .ajax__calendar_container  
+ {   
+     background-color: #e2e2e2;    
+      border:solid 1px #cccccc;
+      }
+      .cal_Theme1 .ajax__calendar_header 
+ {   
+     background-color: #ffffff;     
+     margin-bottom: 4px;}.cal_Theme1 .ajax__calendar_title,.cal_Theme1 .ajax__calendar_next,.cal_Theme1 .ajax__calendar_prev    
+     {    
+        color: #004080;   
+          padding-top: 3px;}
+     
+     .cal_Theme1 .ajax__calendar_body    
+     {    background-color: #e9e9e9;    
+         border: solid 1px #cccccc;
+        }
+     
+     .cal_Theme1 .ajax__calendar_dayname 
+     {   
+         text-align:center;    
+          font-weight:bold;    
+           margin-bottom: 4px;    
+            margin-top: 2px;
+         }
+         
+      .cal_Theme1 .ajax__calendar_day 
+     {    
+        text-align:center;
+        }
+     
+ .cal_Theme1 .ajax__calendar_hover .ajax__calendar_day,.cal_Theme1 .ajax__calendar_hover .ajax__calendar_month,.cal_Theme1 .ajax__calendar_hover .ajax__calendar_year,.cal_Theme1 .ajax__calendar_active 
+
+ {    
+    color: #004080;     
+    font-weight: bold;     
+    background-color: #ffffff;
+    }
+    
+    .cal_Theme1 .ajax__calendar_today  
+ 
+  {   
+     font-weight:bold;
+     
+     
+     }
+     
+     .cal_Theme1 .ajax__calendar_other,.cal_Theme1 .ajax__calendar_hover .ajax__calendar_today,.cal_Theme1 .ajax__calendar_hover .ajax__calendar_title 
+     
+     {    color: #bbbbbb;
+        }
+
+
+
+.MyCalendar4
+{
+    position:relative;
+}
+
+
+.MyCalendar4
+
+.ajax__calendar_container { 
+
+border:1px solid #646464; 
+
+background-color: Window; 
+color: Maroon;
+
+z-index : 1004 ;   
+
+}
+
+.MyCalendar4
+
+.ajax__calendar_other .ajax__calendar_day, 
+.MyCalendar4
+
+.ajax__calendar_other .ajax__calendar_year { 
+
+color: black; 
+}
+
+.MyCalendar4
+
+.ajax__calendar_hover .ajax__calendar_day, 
+.MyCalendar4
+
+.ajax__calendar_hover .ajax__calendar_month, 
+.MyCalendar4
+
+.ajax__calendar_hover .ajax__calendar_year { 
+
+color: black; 
+}
+
+.MyCalendar4
+
+.ajax__calendar_active .ajax__calendar_day, 
+.MyCalendar4
+
+.ajax__calendar_active .ajax__calendar_month, 
+.MyCalendar4
+
+.ajax__calendar_active .ajax__calendar_year { 
+
+color: black; 
+
+font-weight:bold; 
+}
+
+
+
+
+
+.completionList {
+border:solid 1px #444444;
+margin:0px;
+padding:2px;
+height: 100px;
+overflow:auto;
+}
+
+.listItem {
+color: #666666;
+}
+
+.itemHighlighted {
+background-color: #ffc0c0;
+}
+
+
+
+
+
+.modalBg 
+{
+background-color:#cccccc;
+filter:alpha(opacity=80);
+opacity:0.8;
+}
+
+.modalPanel {
+background-color:#ffffff;
+border-width:3px;
+border-style:solid;
+border-color:Gray;
+padding:3px;
+
+}
+
+
+.modalBackground
+{
+	background-color: Gray;
+	filter: alpha(opacity=50);
+	opacity: 0.50;
+}
+
+
+
+.updateProgress
+{
+	border-width: 1px;
+	border-style: solid;
+	background-color: #FFFFFF;
+	position: absolute;
+	width: 180px;
+	height: 65px;
+}
+
+/* Autocomplte List               */
+
+.AutoExtender
+        {
+            font-family: Verdana, Helvetica, sans-serif;
+            font-size: .8em;
+            font-weight: normal;
+            border: solid 1px #006699;
+            line-height: 20px;
+            padding: 10px;
+            background-color: White;
+            margin-left:10px;
+        }
+        .AutoExtenderList
+        {
+            border-bottom: dotted 1px #006699;
+            cursor: pointer;
+            color: Maroon;
+        }
+        .AutoExtenderHighlight
+        {
+            color: White;
+            background-color: #006699;
+            cursor: pointer;
+        }
+        #divwidth
+        {
+          width: 150px !important;   
+        }
+        #divwidth div
+       {
+        width: 150px !important;  
+       }
+       
+   /* Autocomplte List   End             */
+
+
+
+.mod {
+	margin-bottom: 15px;
+	color: #036;
+	background: #E6EAF3;
+	border: 1px solid #036;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}	
+
+.mod h5 a{
+    margin-left: 0;
+    color: #036;
+    }
+    
+.mod h5 a:hover, 
+.mod h5 a:focus {
+    color: #4C7099;
+    text-decoration: underline;
+    }
+
+
+.mod h5 {text-align: center; border-top: 3px double #039;}
+.mod li{
+	list-style: none;	
+	padding: 0 2px 5px 0;
+	border-top: 1px solid #036;
+	}
+.mod h6{
+	color: #fff;
+	text-align: center;
+	padding: 3px;
+	font-size: 100%;
+}
+
+
+.mod a {
+	margin-left: 5px;
+	text-decoration: none;
+	}
+	
+.mod a:hover, .mod a:focus {
+	 
+	text-decoration: underline; 
+	}
+
+
+.mod form{
+	margin: 0;
+	padding-bottom: 7px;
+	text-align: center;
+}
+
+.mod form input{
+	margin: 4px 0 0;
+	border: 1px solid #036;
+	color: #036;
+	width: 8em;
+}
+
+/*End default link styles*/
+
+
+
+.msgBoxHead
+{
+    font-family:Trebuchet MS;
+    font-size:11px;
+    color:Gray ;
+    font-weight:bold ;
+    background-color:white;
+    
+    
+}
+     
+ 
+.modalBg 
+{
+background-color:#cccccc;
+filter:alpha(opacity=80);
+opacity:0.8;
+}
+
+.modalPanel {
+background-color:#ffffff;
+border-width:2px;
+border-style:solid;
+border-color:Gray;
+padding:3px;
+width:400px;
+}
+
+
+.modalBackground
+{
+	background-color: Gray;
+	 filter:alpha(opacity=70); 
+      opacity:0.7;
+}
+
+
+.staffReportHead
+{
+  
+    font-weight: normal; 
+    font-size: 10px; 
+    color: black;
+     font-style: normal; 
+     font-variant: normal;
+     font-size: 10pt;
+     font-family: Tahoma;
+     font-weight:bold;
+   
+}
+
+.staffReportTD
+{
+  
+    font-weight: normal; 
+    font-size: 10px; 
+    color: black;
+     font-style: normal; 
+     font-variant: normal;
+     font-size: 9pt;
+     font-family: Tahoma;
+     
+   
+}
+.focus   
+         {  
+             background-color: #DDDDFF;  
+             border: solid 1px blue;  
+         }  
+         .invalid   
+        {  
+             background-color: #FF0000;  
+             border: solid 1px #FF0000;  
+         }  
+        .negative  
+         {  
+             background-color: #FF5555;  
+         }  
+ .PromptCSS  
+        {  
+            color:Menu;  
+            font-size:12px;              
+            font-weight:bold;  
+            background-color:Gray;  
+            font-family:Arial;  
+            border:solid 1px  black;  
+            height:20px;  
+            }  
+            
+          
+          
+ .smallFontReport
+{
+  
+    font-weight: normal; 
+    font-size:  9px; 
+    color: black;
+     font-style: normal; 
+     font-variant: normal;
+     font-family: arial;
+     
+   
+}
+
+.smallFontReport:hover	
+{
+	background-color:#FF0000;
+	
+}
+    
+ .smallFontReport1
+{
+  
+    font-weight: normal; 
+    font-size:  10px; 
+    color: black;
+     font-style: normal; 
+     font-variant: normal;
+     font-family: arial;
+     
+   
+}
+    
+    
+    .smallFontHead
+{
+  
+    font-weight: normal; 
+    font-size:  10px; 
+    color: black;
+     font-style: normal; 
+     font-variant: normal;
+     font-family: arial;
+     font-weight:bold;
+     
+   
+}      
+
+
+.tdStudentReportFontHead
+{font-weight: normal; 
+    font-size:  14px; 
+    color: black;
+     font-style: normal; 
+     font-variant: normal;
+     font-family: arial;
+     font-weight:bold;
+}
+
+.feeReportHead
+{font-weight: normal; 
+    font-size:  18px; 
+    color: black;
+     font-style: normal; 
+     font-variant: normal;
+     font-family: arial;
+     font-weight:bold;
+}
+
+
+.RightArrow
+{
+  width: 22px;
+  height: 22px;
+  background-image:url(../images/phone1.png) ;
+}
+
+
+.RightArrow:hover
+{
+
+background-image:url(../images/phone2.png) ;
+}
+
+ .ModalPopupBG
+{
+    background-color: gray;
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
+
+.HellowWorldPopup
+{
+ 
+   -webkit-border-radius:5px;
+      -moz-border-radius:5px;
+         border-radius:5px;
+    background:white;
+
+
+}
+
+
+.PromptCSS  
+        {  
+            color:white;  
+            font-size:12px;  
+            font-weight:bold;  
+            background-color:Black;  
+            border:solid 1px DarkOrange;  
+            height:17px;  
+            }  
+            
+ .ModalPopupBG
+{
+    background-color: gray;
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
+
+.HellowWorldPopup
+{
+ 
+   -webkit-border-radius:5px;
+      -moz-border-radius:5px;
+         border-radius:5px;
+    background:white;
+
+
+}
+
+
+.view
+{
+	color:#025a7e;
+	font-size: 11px;
+	font-weight: bold;
+	line-height:15px;
+	font-family: tahoma;
+	text-align:left;
+}
+
+
+.view1
+{
+	color:#025a7e;
+	font-size: 11px;
+	font-weight: bold;
+	line-height:15px;
+	font-family: tahoma;
+	text-align:left;
+	background-image:url(images/sg_bg.gif);
+	background-repeat:repeat-x ;
+}
+
+.content1
+{
+	color:#007dba;
+	font-size: 11px;
+	font-weight: normal;
+	line-height:20px;
+	font-family: tahoma;
+	text-align:right;
+}
+
+
+.content2
+{
+	color:#5c5d5d;
+	font-size: 11px;
+	font-weight: bold;
+	line-height:30px;
+	font-family: tahoma;
+	text-align:left;
+}
+.content
+{
+	color:#2a2a2a;
+	font-size: 11px;
+	font-weight: normal;
+	line-height:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-family: tahoma;
+	text-align:justify;
+}
+
+
+.Grid
+{
+border-style:solid;
+border-width: 1px;
+border-bottom-color:white;
+border-top-color: white;
+border-left-color:white;
+border-right-color:white;
+
+
+}
+
+
+.Grid th
+{
+
+border-width: 1px;
+border-bottom-color:white;
+border-top-color: white;
+border-left-color:white;
+border-right-color:white
+
+}
+
+.Grid td
+{
+border-width: 0px;
+border-bottom-color:white;
+border-top-color: white;
+border-left-color:white;
+border-right-color:white
+
+}
+
+
+.reportHeaderSemester
+{
+	color:#025a7e;
+	font-size: 20px;
+	font-weight: bold;
+	line-height:15px;
+	font-family: tahoma;
+	text-align:center ;
+}
+
+.reportHeaderlabel1
+{
+	color:green;
+	font-size: 11px;
+	font-weight: bold;
+	line-height:11px;
+	font-family: tahoma;
+	text-align:center ;
+}
+
+
+.reportHeaderlabel2
+{
+	color:#025a7e;
+	font-size: 16px;
+	font-weight: bold;
+	line-height:15px;
+	font-family: tahoma;
+	text-align:center ;
+}
+
+
+
+.tdStudentReportFontPlain
+{
+	color:#025a7e;
+	font-size: 11px;
+	font-weight: normal;
+	line-height:11px;
+	font-family: tahoma;
+	text-align:left ;
+	
+}
+
+
+
+
+
+fieldset {
+    border-radius: 6px;
+    background: #eee;
+    margin: 1px;
+    padding: 10px 5px 5px 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    width:97%;
+   
+    border: 2px groove threedface;
+}
+legend {
+    position: relative;
+    top: 11px;
+    background: #fff;
+    padding: 5px 5px;
+    border: 2px groove threedface;
+    border-top: none;
+    box-shadow: inset 0 -5px 5px rgba(0,0,0,.2);
+    text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+    font-weight: bold;
+    font-size:11px;
+    width:140px;
+    text-align:left;
+}
+legend span {
+    display: block;
+    margin: -20px;
+    background: #fff;
+    padding: 0px 20px;
+}
+
+/** ALT VERSION **/
+form.alt fieldset {
+    background: #eef;
+}
+form.alt legend {
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+form.alt legend span {
+    margin: -20px -15px;
+}
+
+
+
+input[type="submit"]{
+	border : solid 1px #638a00;
+	border-radius : 3px;
+	moz-border-radius : 3px;
+	-webkit-box-shadow : 0px 2px 2px rgba(0,0,0,0.4);
+	-moz-box-shadow : 0px 2px 2px rgba(0,0,0,0.4);
+	box-shadow : 0px 2px 2px rgba(0,0,0,0.4);
+	font-size : 15px;
+	color : #ffffff;
+	padding : 1px 17px;
+	background : #96c300;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#96c300), color-stop(100%,#648c00));
+	background : -moz-linear-gradient(top, #96c300 0%, #648c00 100%);
+	background : -webkit-linear-gradient(top, #96c300 0%, #648c00 100%);
+	background : -o-linear-gradient(top, #96c300 0%, #648c00 100%);
+	background : -ms-linear-gradient(top, #96c300 0%, #648c00 100%);
+	background : linear-gradient(top, #96c300 0%, #648c00 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#96c300', endColorstr='#648c00',GradientType=0 );
+
+}
+
+
+
+
+
+.Foil 
+{
+	*border-collapse: collapse; 
+    border-spacing: 0;
+    width: 100%; 
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc; 
+    -moz-box-shadow: 0 1px 1px #ccc; 
+    box-shadow: 0 1px 1px #ccc;      
+    font-family:Arial;
+   
+}
+
+.Foil tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;     
+}    
+    
+.Foil td {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-weight:bold;   
+    font-size:11x;    
+}
+
+.Foil th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;    
+     font-family:Arial;
+    font-size:12x;
+    font-weight:bold;   
+}
+
+
+
+.Foil th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+       
+}
+
+.Foil td:first-child, .Foil th:first-child {
+    border-left: none;
+}
+
+.Foil th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+.Foil th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.Foil th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.Foil tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.Foil tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}

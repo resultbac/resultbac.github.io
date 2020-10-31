@@ -1,0 +1,45 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title><link href="css/ivyedu1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    window.history.forward();
+    function noBack() { window.history.forward(-1); }
+</script>
+
+</head>
+
+<body onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
+    <form method="post" action="./ExamReportStudent.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTk2ODk2MDM4MA9kFgICAw9kFgQCAw8PFgIeBFRleHRlZGQCBw8WAh4Dc3JjBXRleGFtL0ZpbmFsTWFya3NoZWV0LmFzcHg/aWRzPTQ3NjkmZXhhbT00OSZhZG1iYXRjaD0yMDE3JnNlbT0xMiZzZW1OYW1lPVNlbS02JmJuYW1lPUNPTVBVVEVSIFNDSUVOQ0Umd2luZ25hbWU9U0NJRU5DRWRkryoeRN+ZumDVGh9RhgfqWobGyCxm0FuW6fHXNP++7Q0=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="6C7B9F23" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAJnWRhESVCz1p/SGUxVxbqLbDLKv5djFusH7BPw+3X4we7f0rQVKgicLCWJyAhpad4aZH63A5WteynhULjgDJuS" />
+</div>
+    <div style="float:left; width:100%">
+    <div style="float:left; width:80%">&nbsp;<span id="lblmsg" style="font-size: large; font-weight: 700; color: #FF3300"></span>
+        </div>
+     <div style="float:left; width:20%"><input type="submit" name="btnexot" value="Exit" id="btnexot" /></div>
+
+        
+   </div>
+
+        <div  style="float:left; width:100%">
+    <iframe id="if1" frameborder="0" scrolling="no" width="100%" height="1000px" src="exam/FinalMarksheet.aspx?ids=4769&amp;exam=49&amp;admbatch=2017&amp;sem=12&amp;semName=Sem-6&amp;bname=COMPUTER SCIENCE&amp;wingname=SCIENCE">
+    
+    
+    </iframe>
+    
+    </div>
+    </form>
+</body>
+</html>
